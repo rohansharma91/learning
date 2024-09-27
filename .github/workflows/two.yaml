@@ -6,4 +6,6 @@ jobs:
     steps:
       - name: Echo
         run: echo "Hello"
+      - name: checkout
+        run: actions/checkout@v4.2.0
    
